@@ -5,6 +5,7 @@ namespace Library
 {
     public class AppointmentService
     {
+
         public static bool CreateAppointment(Paciente paciente, Doctor doctor, string lugar)
         {
             bool validar = ValidarConsulta.Validar(paciente,doctor,lugar);
